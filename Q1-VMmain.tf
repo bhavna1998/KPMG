@@ -2,7 +2,7 @@
 ## NOTE: example/main.tf to be used for deployment of resources through Gitlab.
 
 module "windows_vm" {
-  source              = "git::https://dev.azure.com/dmangeshtambe0819/_git/iac-azure-modules?path=/windowsvm?ref=main"
+  source              = "to be provided"
   windows_vms = [
     {
       name                          = "vm-cus-app-dev-01"      #(Required) Name of windows virtual machine
