@@ -1,5 +1,5 @@
 module "storageaccount" {
-  source              = "git::https://dev.azure.com/dmangeshtambe0819/_git/iac-azure-modules?path=/storageaccount?ref=main"
+  source              = "to be provided"
   storage_accounts    = var.storage_accounts
   containers          = var.containers
   file_shares         = var.file_shares
